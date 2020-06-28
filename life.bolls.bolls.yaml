@@ -49,8 +49,8 @@ modules:
       - type: file
         filename: bolls-0.1.1.AppImage
         url: https://storage.googleapis.com/dbbba/bolls-0.1.1.AppImage
-        sha256: bd0dab2ddb979c2a5d1cfe4e8389032c10028e5b4939a52af133f5d43f01ad29
-        size: 72505429
+        sha256: bad57ed7b1875d828f4c9d9f6a8142feb57243688f4441a9f33329b462dd52cd
+        size: 72546486
       - type: shell
         commands:
           - sed -i '3i <releases><release version="2020-1.2" date="2020-04-22"/></releases>'
