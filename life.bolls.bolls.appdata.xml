@@ -52,7 +52,12 @@
 			<li>PDT, Palabra de Dios para Todos</li>
 			<li>NVI, Nueva Versión Internacional</li>
 		</ul>
-		<p>If you have any further questions or offers -- be not afraid to mail me. Also, if you have a desire to support this app you can do that at <a target="_blank" href="https://www.patreon.com/bolls">Patreon</a> or <a target="_blank" href="https://send.monobank.ua/6ao79u5rFZ">donate directly</a></p>
+		<p>
+			If you have any further questions or offers -- be not afraid to mail me. Also, if you have a desire to support this app you can do that at
+			<a target="_blank" href="https://www.patreon.com/bolls">Patreon</a>
+			or
+			<a target="_blank" href="https://send.monobank.ua/6ao79u5rFZ">donate directly</a>
+		</p>
 	</description>
 	<url type="homepage">https://bolls.life</url>
 	<screenshots>
@@ -65,19 +70,19 @@
 			<image>https://bolls.life/static/desktop_screenshots/Screenshot%20from%202020-05-20%2000-12-05.png</image>
 		</screenshot>
 	</screenshots>
-	<content_rating type="oars-1.1"/>
+	<content_rating type="oars-1.1" />
 	<release version="1.3.26" date="2020-06-10">
-			<description>
-					<p>New translations:</p>
-					<ul>
-							<li>NRT, Новый Русский Перевод (НРП)</li>
-							<li>NTJud, Novo Testamento Judaico</li>
-					</ul>
-			</description>
+		<description>
+			<p>New translations:</p>
+			<ul>
+				<li>NRT, Новый Русский Перевод (НРП)</li>
+				<li>NTJud, Novo Testamento Judaico</li>
+			</ul>
+		</description>
 	</release>
 	<release version="1.3.38" date="2020-06-28">
-			<description>
-					<p>Design update</p>
-			</description>
+		<description>
+			<p>Design update</p>
+		</description>
 	</release>
 </component>
