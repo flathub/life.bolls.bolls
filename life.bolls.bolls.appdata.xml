@@ -11,7 +11,7 @@
 			Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word with a deep understanding of His design. Bible elevates your soul with rapid ascending to calm, safety and more.
 		</p>
 		<p>
-			This app is built for reading the Bible on full screen. There is available such features as Bible texts of 28 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for <b>Українська</b>, <b>Русский</b>, <b>Portuguese</b> and <b>Español</b>.
+			This app is built for reading the Bible on full screen. There is available such features as Bible texts of 28 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese and Español.
 		</p>
 		<p>
 			The list of available translations:
@@ -53,7 +53,7 @@
 			<li>NVI, Nueva Versión Internacional</li>
 		</ul>
 		<p>
-			If you have any further questions or offers - be not afraid to mail me. Also, if you have a desire to support this app you can do that at <a href='https://www.patreon.com/bolls'> Patreon </a> or <a href='https://send.monobank.ua/6ao79u5rFZ'> donate directly </a>.
+			If you have any further questions or offers - be not afraid to mail me. Also, if you have a desire to support this app you can do that at Patreon [https://www.patreon.com/bolls] or donate directly [https://send.monobank.ua/6ao79u5rFZ].
 		</p>
 	</description>
 	<url type="homepage">https://bolls.life</url>
@@ -68,18 +68,20 @@
 		</screenshot>
 	</screenshots>
 	<content_rating type="oars-1.1" />
-	<release version="1.3.26" date="2020-06-10">
-		<description>
-			<p>New translations:</p>
-			<ul>
-				<li>NRT, Новый Русский Перевод (НРП)</li>
-				<li>NTJud, Novo Testamento Judaico</li>
-			</ul>
-		</description>
-	</release>
-	<release version="1.3.38" date="2020-06-28">
-		<description>
-			<p>Design update</p>
-		</description>
-	</release>
-</component>
+	<releases>
+		<release version="1.3.38" date="2020-06-28">
+			<description>
+				<p>Design update</p>
+			</description>
+		</release>
+		<release version="1.3.26" date="2020-06-10">
+			<description>
+				<p>New translations:</p>
+				<ul>
+					<li>NRT, Новый Русский Перевод (НРП)</li>
+					<li>NTJud, Novo Testamento Judaico</li>
+				</ul>
+			</description>
+		</release>
+	</releases>
+</component><!-- flatpak run org.freedesktop.appstream-glib validate life.bolls.bolls.appdata.xml -->
