@@ -6,7 +6,7 @@ runtime-version: '19.08'
 sdk: org.freedesktop.Sdk
 command: bolls-run
 separate-locales: false
-tags: [proprietary]
+tags: []
 finish-args:
   - --socket=x11
   - --share=ipc
@@ -45,11 +45,13 @@ modules:
       - type: file
         path: life.bolls.bolls.svg
       - type: file
+        path: life.bolls.bolls.png
+      - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
         filename: bolls-0.1.5.AppImage
         url: https://storage.googleapis.com/dbbba/bolls-0.1.5.AppImage
-        sha256: bd0dab2ddb979c2a5d1cfe4e8389032c10028e5b4939a52af133f5d43f01ad29
+        sha256: bad57ed7b1875d828f4c9d9f6a8142feb57243688f4441a9f33329b462dd52cd
         size: 72505429
       - type: shell
         commands:
