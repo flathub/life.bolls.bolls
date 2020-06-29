@@ -26,8 +26,8 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - unappimage bolls-0.1.1.AppImage
-      - rm bolls-0.1.1.AppImage
+      - unappimage bolls-0.1.5.AppImage
+      - rm bolls-0.1.5.AppImage
       - mv squashfs-root /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
@@ -47,8 +47,8 @@ modules:
       - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: bolls-0.1.1.AppImage
-        url: https://storage.googleapis.com/dbbba/bolls-0.1.1.AppImage
+        filename: bolls-0.1.5.AppImage
+        url: https://storage.googleapis.com/dbbba/bolls-0.1.5.AppImage
         sha256: bd0dab2ddb979c2a5d1cfe4e8389032c10028e5b4939a52af133f5d43f01ad29
         size: 72505429
       - type: shell
