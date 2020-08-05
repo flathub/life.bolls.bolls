@@ -36,7 +36,7 @@ modules:
 
     sources:
       - type: script
-        dest-filename: bolls-runz
+        dest-filename: bolls-run
         commands:
           - zypak-wrapper /app/bin/bolls/bolls "$@"
       - type: file
