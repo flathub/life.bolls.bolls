@@ -4,7 +4,8 @@
 	<name>Bolls</name>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0</project_license>
-	<developer_name>Bohuslav Pavlyshynets </developer_name>
+	<developer_name>Bohuslav Pavlyshynets</developer_name>
+	<url type="homepage">https://bolls.life</url>
 	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola scriptura</summary>
 	<description>
 		<p>
@@ -12,6 +13,9 @@
 		</p>
 		<p>
 			This app is built for reading the Bible on full screen. There is available such features as Bible texts of 28 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese and Español.
+		</p>
+		<p>
+			This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.
 		</p>
 		<p>
 			The list of available translations:
@@ -56,7 +60,6 @@
 			If you have any further questions or offers - be not afraid to mail me. Also, if you have a desire to support this app you can do that at Patreon [https://www.patreon.com/bolls] or donate directly [https://send.monobank.ua/6ao79u5rFZ].
 		</p>
 	</description>
-	<url type="homepage">https://bolls.life</url>
 	<screenshots>
 		<screenshot type="default">
 			<image>https://bolls.life/static/desktop_screenshots/Screenshot%20from%202020-05-20%2000-08-45.png</image>
@@ -67,8 +70,14 @@
 			<image>https://bolls.life/static/desktop_screenshots/Screenshot%20from%202020-05-20%2000-12-05.png</image>
 		</screenshot>
 	</screenshots>
-	<content_rating type="oars-1.1" />
 	<releases>
+		<release version="1.3.55" date="2020-06-28">
+			<description>
+				<p>Google / GitHub / Facebook OAuth</p>
+				<p>Edit / delete your account</p>
+				<p>Bug fixes, performance improvements</p>
+			</description>
+		</release>
 		<release version="1.3.38" date="2020-06-28">
 			<description>
 				<p>Design update</p>
@@ -84,4 +93,5 @@
 			</description>
 		</release>
 	</releases>
-</component><!-- flatpak run org.freedesktop.appstream-glib validate life.bolls.bolls.appdata.xml -->
+	<content_rating type="oars-1.1" />
+</component> <!-- flatpak run org.freedesktop.appstream-glib validate life.bolls.bolls.appdata.xml -->
