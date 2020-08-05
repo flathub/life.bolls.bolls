@@ -26,18 +26,17 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - unappimage bolls-0.1.5.AppImage
-      - rm bolls-0.1.5.AppImage
+      - unappimage bolls-0.1.7.AppImage
+      - rm bolls-0.1.7.AppImage
       - mv squashfs-root /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
       - install -Dm644 life.bolls.bolls.desktop -t /app/share/applications
       - install -Dm644 life.bolls.bolls.svg -t /app/share/icons/hicolor/128x128/apps
 
-
     sources:
       - type: script
-        dest-filename: bolls-run
+        dest-filename: bolls-runz
         commands:
           - zypak-wrapper /app/bin/bolls/bolls "$@"
       - type: file
@@ -45,14 +44,12 @@ modules:
       - type: file
         path: life.bolls.bolls.svg
       - type: file
-        path: life.bolls.bolls.png
-      - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: bolls-0.1.5.AppImage
-        url: https://storage.googleapis.com/dbbba/bolls-0.1.5.AppImage
-        sha256: bad57ed7b1875d828f4c9d9f6a8142feb57243688f4441a9f33329b462dd52cd
-        size: 72505429
+        filename: bolls-0.1.7.AppImage
+        url: https://storage.googleapis.com/dbbba/bolls-0.1.7.AppImage
+        sha256: df02f0d441c6e68f7b5326876f2c36690a9ac23204d5fd2d1bc316b5446b2969
+        size: 72546486
       - type: shell
         commands:
           - sed -i '3i <releases><release version="2020-1.2" date="2020-04-22"/></releases>'
