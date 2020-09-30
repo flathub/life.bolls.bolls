@@ -27,14 +27,15 @@
 			<li>RSV, Revised Standard Version (1952)</li>
 			<li>CJB, The Complete Jewish Bible (1998)</li>
 			<li>NASB, New American Standard Bible (1995)</li>
+			<li>ESV, English Standard Version 2001, 2016</li>
 			<li>GNV, Geneva Bible (1599)</li>
 			<li>WLC, Westminster Leningrad Codex (with Vowels)</li>
 			<li>WLCC, Westminster Leningrad Codex (Consonants)</li>
 			<li>UBIO, Біблія, Іван Іванович Огієнко 1962</li>
 			<li>UKRK, Біблія. Пантелеймон Александрович Куліш, Іван Семенович Нечуй-Левицький, Іван Павлович Пулюй,1903</li>
 			<li>HOM, Святе Письмо, Переклад Івана Хоменка, 1963</li>
-			<li>NRT, Новый Русский Перевод (НРП)</li>
 			<li>SYNOD, Русский Синодальный Перевод</li>
+			<li>NRT, Новый Русский Перевод (НРП)</li>
 			<li>JNT, Еврейский Новый Завет в переводе и комментариях Давида Стерна</li>
 			<li>LXX, LXX [A], Accentedq</li>
 			<li>NTGT, Greek NT: Tischendorf 8th Ed.</li>
@@ -42,11 +43,13 @@
 			<li>VULG, Biblia Sacra juxta Vulgatam Clementinam</li>
 			<li>CUV, Chinese: Union (Traditional)</li>
 			<li>ARA, Almeida Revista e Atualizada, 1959</li>
-			<li>NRT, Новый Русский Перевод (НРП)</li>
+			<li>NTJud, Novo Testamento Judaico </li>
 			<li>MB, Menge-Bibel</li>
 			<li>ELB, Elberfelder Bibel, 1871</li>
 			<li>LUT, Luther (1912)</li>
 			<li>SCH, Schlachter (1951)</li>
+			<li>NLD, De Heilige Schrift, Petrus Canisiusvertaling, 1939</li>
+			<li>NBS, Nouvelle Bible Segond, 2002</li>
 			<li>DNB, Det Norsk Bibelselskap (1930)</li>
 			<li>BG, Biblia gdańska, 1881</li>
 			<li>BW, Biblia warszawska, 1975</li>
@@ -71,6 +74,13 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.0.14" date="2020-09-30">
+			<description>
+				<p>Update to Imba 2</p>
+				<p>Save the window size state, and restore it on restart</p>
+				<p>Bug fixes, performance improvements</p>
+			</description>
+		</release>
 		<release version="1.3.55" date="2020-06-28">
 			<description>
 				<p>Google / GitHub / Facebook OAuth</p>
