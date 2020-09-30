@@ -26,8 +26,8 @@ modules:
 	- name: bolls
 		buildsystem: simple
 		build-commands:
-			- unappimage bolls-0.1.7.AppImage
-			- rm bolls-0.1.7.AppImage
+			- unappimage bolls-0.1.8.AppImage
+			- rm bolls-0.1.8.AppImage
 			- mv squashfs-root /app/bin/bolls
 			- install -D bolls-run -t /app/bin
 			- install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
