@@ -8,49 +8,49 @@ command: bolls-run
 separate-locales: false
 tags: []
 finish-args:
-  - --socket=x11
-  - --share=ipc
-  - --share=network
-  - --device=dri
-  - --filesystem=~/.config
+	- --socket=x11
+	- --share=ipc
+	- --share=network
+	- --device=dri
+	- --filesystem=~/.config
 modules:
-  - name: unappimage
-    buildsystem: simple
-    build-commands:
-      - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=/app/bin
-    sources:
-      - type: git
-        url: https://github.com/refi64/unappimage
-        commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
+	- name: unappimage
+		buildsystem: simple
+		build-commands:
+			- make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=/app/bin
+		sources:
+			- type: git
+				url: https://github.com/refi64/unappimage
+				commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
 
-  - name: bolls
-    buildsystem: simple
-    build-commands:
-      - unappimage bolls-0.1.7.AppImage
-      - rm bolls-0.1.7.AppImage
-      - mv squashfs-root /app/bin/bolls
-      - install -D bolls-run -t /app/bin
-      - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
-      - install -Dm644 life.bolls.bolls.desktop -t /app/share/applications
-      - install -Dm644 life.bolls.bolls.svg -t /app/share/icons/hicolor/128x128/apps
+	- name: bolls
+		buildsystem: simple
+		build-commands:
+			- unappimage bolls-0.1.7.AppImage
+			- rm bolls-0.1.7.AppImage
+			- mv squashfs-root /app/bin/bolls
+			- install -D bolls-run -t /app/bin
+			- install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
+			- install -Dm644 life.bolls.bolls.desktop -t /app/share/applications
+			- install -Dm644 life.bolls.bolls.svg -t /app/share/icons/hicolor/128x128/apps
 
-    sources:
-      - type: script
-        dest-filename: bolls-run
-        commands:
-          - zypak-wrapper /app/bin/bolls/bolls "$@"
-      - type: file
-        path: life.bolls.bolls.desktop
-      - type: file
-        path: life.bolls.bolls.svg
-      - type: file
-        path: life.bolls.bolls.appdata.xml
-      - type: file
-        filename: bolls-0.1.7.AppImage
-        url: https://storage.googleapis.com/dbbba/bolls-0.1.7.AppImage
-        sha256: df02f0d441c6e68f7b5326876f2c36690a9ac23204d5fd2d1bc316b5446b2969
-        size: 72546486
-      - type: shell
-        commands:
-          - sed -i '3i <releases><release version="2020-1.2" date="2020-04-22"/></releases>'
-            life.bolls.bolls.appdata.xml
+		sources:
+			- type: script
+				dest-filename: bolls-run
+				commands:
+					- zypak-wrapper /app/bin/bolls/bolls "$@"
+			- type: file
+				path: life.bolls.bolls.desktop
+			- type: file
+				path: life.bolls.bolls.svg
+			- type: file
+				path: life.bolls.bolls.appdata.xml
+			- type: file
+				filename: bolls-0.1.8.AppImage
+				url: https://storage.googleapis.com/dbbba/bolls-0.1.8.AppImage
+				sha256: 4d1172a0acb2a1c1d66b0ac66ca785e0717b7b139e658191ed73e0064cdac29b
+				size: 72546486
+			- type: shell
+				commands:
+					- sed -i '3i <releases><release version="2.0.14" date="2020-09-30"/></releases>'
+						life.bolls.bolls.appdata.xml
