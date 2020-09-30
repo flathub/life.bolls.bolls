@@ -15,7 +15,7 @@
 			This app is built for reading the Bible on full screen. There is available such features as Bible texts of 28 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese and Español.
 		</p>
 		<p>
-			This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.
+			This is FOSS. Here is GitHub -=&gt; https://github.com/Bohooslav/bain.
 		</p>
 		<p>
 			The list of available translations:
@@ -74,6 +74,7 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="0.1.8" date="2020-09-30"/>
 		<release version="2.0.14" date="2020-09-30">
 			<description>
 				<p>Update to Imba 2</p>
@@ -103,5 +104,5 @@
 			</description>
 		</release>
 	</releases>
-	<content_rating type="oars-1.1" />
-</component> <!-- flatpak run org.freedesktop.appstream-glib validate life.bolls.bolls.appdata.xml -->
+	<content_rating type="oars-1.1"/>
+</component><!-- flatpak run org.freedesktop.appstream-glib validate life.bolls.bolls.appdata.xml -->
