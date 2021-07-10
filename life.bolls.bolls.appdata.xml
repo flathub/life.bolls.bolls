@@ -80,6 +80,14 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.1.30" date="2021-07-10">
+			<description>
+				<p>Update electron</p>
+				<p>Add more translations</p>
+				<p>UI update</p>
+				<p>Other minor improvements. Full changelog at https://t.me/bbbible</p>
+			</description>
+		</release>
 		<release version="2.0.17" date="2020-10-09">
 			<description>
 				<p>Update runtime version</p>
