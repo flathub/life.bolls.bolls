@@ -8,18 +8,10 @@
 	<url type="homepage">https://bolls.life</url>
 	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola scriptura</summary>
 	<description>
-		<p>
-Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word with a deep understanding of His design. Bible elevates your soul with rapid ascending to calm, safety and more.
-		</p>
-		<p>
-This app is built for reading the Bible on full screen. There is available such features as Bible texts of 63 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese, Español and German.
-		</p>
-		<p>
-This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.
-		</p>
-		<p>
-The list of available translations:
-		</p>
+		<p>Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word with a deep understanding of His design. Bible elevates your soul with rapid ascending to calm, safety and more.</p>
+		<p>This app is built for reading the Bible on full screen. There is available such features as Bible texts of 63 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese, Español and German.</p>
+		<p>This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.</p>
+		<p>The list of available translations:</p>
 		<ul>
 			<li>YLT, Young's Literal Translation (1898)</li>
 			<li>KJV, King James Version 1769 with Apocrypha</li>
@@ -85,9 +77,7 @@ The list of available translations:
 			<li>VULG, Biblia Sacra juxta Vulgatam Clementinam</li>
 			<li>NR06, Nuova Riveduta, 2006</li>
 		</ul>
-		<p>
-If you have any further questions or offers - be not afraid to mail me or text in Telegram.
-		</p>
+		<p>If you have any further questions or offers - be not afraid to mail me or text in Telegram.</p>
 	</description>
 	<screenshots>
 		<screenshot type="default">
