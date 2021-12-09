@@ -9,53 +9,73 @@
 	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola scriptura</summary>
 	<description>
 		<p>
-			Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word with a deep understanding of His design. Bible elevates your soul with rapid ascending to calm, safety and more.
+Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word with a deep understanding of His design. Bible elevates your soul with rapid ascending to calm, safety and more.
 		</p>
 		<p>
-			This app is built for reading the Bible on full screen. There is available such features as Bible texts of 43 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese and Español.
+This app is built for reading the Bible on full screen. There is available such features as Bible texts of 63 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese, Español and German.
 		</p>
 		<p>
-			This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.
+This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.
 		</p>
 		<p>
-			The list of available translations:
+The list of available translations:
 		</p>
 		<ul>
 			<li>YLT, Young's Literal Translation (1898)</li>
-			<li>KJV, King James Version (1769)</li>
+			<li>KJV, King James Version 1769 with Apocrypha</li>
 			<li>NKJV, New King James Version, 1982</li>
 			<li>WEB, World English Bible</li>
 			<li>RSV, Revised Standard Version (1952)</li>
 			<li>CJB, The Complete Jewish Bible (1998)</li>
+			<li>TS2009, The Scriptures 2009</li>
+			<li>LXXE, English version of the Septuagint Bible, 1851</li>
 			<li>TLV, Tree of Life Version</li>
 			<li>NASB, New American Standard Bible (1995)</li>
 			<li>ESV, English Standard Version 2001, 2016</li>
 			<li>GNV, Geneva Bible (1599)</li>
+			<li>DRB, Douay Rheims Bible</li>
+			<li>NIV, New International Version, 1984</li>
+			<li>NLT, New Living Translation, 2015</li>
+			<li>NRSVCE, New Revised Standard Version Catholic Edition, 1993</li>
+			<li>NET, New English Translation, 2007</li>
 			<li>WLC, Westminster Leningrad Codex (with Vowels)</li>
 			<li>WLCC, Westminster Leningrad Codex (Consonants)</li>
 			<li>UBIO, Біблія, Іван Іванович Огієнко 1962</li>
 			<li>UKRK, Біблія. Пантелеймон Александрович Куліш, Іван Семенович Нечуй-Левицький, Іван Павлович Пулюй,1903</li>
 			<li>HOM, Святе Письмо, Переклад Івана Хоменка, 1963</li>
+			<li>UTT, Українська Біблія LXX УБТ Рафаїла Турконяка (2011) 77 книг</li>
+			<li>UMT, Свята Біблія: Сучасною мовою</li>
 			<li>JNT, Еврейский Новый Завет в переводе и комментариях Давида Стерна</li>
 			<li>NRT, Новый Русский Перевод (НРП)</li>
 			<li>SYNOD, Русский Синодальный Перевод</li>
+			<li>RBS2, Современный русский перевод, 2015</li>
+			<li>CSL, Библия Церковнославянская, 1900</li>
+			<li>BTI, Библия под ред. М.П. Кулакова и М.М. Кулакова, 2015</li>
 			<li>BTX3, La Biblia Textual 3ra Edicion</li>
 			<li>RV1960, Reina-Valera 1960</li>
 			<li>RV2004, Reina Valera Gómez 2004</li>
 			<li>PDT, Palabra de Dios para Todos</li>
 			<li>NVI, Nueva Versión Internacional</li>
-			<li>ARA, Almeida Revista e Atualizada, 1959</li>
+			<li>NTV, Nueva Traducción Viviente, 2009</li>
+			<li>ARA, Almeida Revista e Atualizada, 1993</li>
 			<li>NTJud, Novo Testamento Judaico</li>
 			<li>OL, O Livro</li>
+			<li>NVIPT, Nova Versão Internacional</li>
+			<li>NVT, Bíblia Sagrada, Nova Versão Transformadora, 2016</li>
+			<li>NTLH, Nova Tradução na Linguagem de Hoje, 2000</li>
+			<li>KJA, Bíblia King James Atualizada, 2001</li>
 			<li>MB, Menge-Bibel</li>
 			<li>ELB, Elberfelder Bibel, 1871</li>
 			<li>SCH, Schlachter (1951)</li>
 			<li>LUT, Luther (1912)</li>
+			<li>POV, Persian Old Version</li>
 			<li>TBSI, Tamil Older Version Bible</li>
+			<li>TB, Terjemahan Baru</li>
 			<li>NLD, De Heilige Schrift, Petrus Canisiusvertaling, 1939</li>
 			<li>DNB, Det Norsk Bibelselskap (1930)</li>
 			<li>NBS, Nouvelle Bible Segond, 2002</li>
 			<li>SUV, Swahili Union Version, 1997</li>
+			<li>NJB, 新改訳聖書 第三版, New Japanese Bible - Shinkai-yaku, 2003</li>
 			<li>CUV, Chinese Union (Traditional) 和合本</li>
 			<li>BG, Biblia gdańska, 1881</li>
 			<li>BW, Biblia warszawska, 1975</li>
@@ -66,7 +86,7 @@
 			<li>NR06, Nuova Riveduta, 2006</li>
 		</ul>
 		<p>
-			If you have any further questions or offers - be not afraid to mail me. Also, if you have a desire to support this app you can donate directly [https://send.monobank.ua/6ao79u5rFZ].
+If you have any further questions or offers - be not afraid to mail me or text in Telegram.
 		</p>
 	</description>
 	<screenshots>
@@ -80,6 +100,14 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.1.64" date="2021-11-09">
+			<description>
+				<p>Update electron</p>
+				<p>Add more translations, and translator commentaries</p>
+				<p>UI update, performance improvements</p>
+				<p>Other minor improvements. Full changelog at the telegram channel @bbbible</p>
+			</description>
+		</release>
 		<release version="2.1.30" date="2021-07-10">
 			<description>
 				<p>Update electron</p>
