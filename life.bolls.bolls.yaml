@@ -26,8 +26,8 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - unappimage bolls-0.2.1.AppImage
-      - rm bolls-0.2.1.AppImage
+      - unappimage Bolls-0.2.1.AppImage
+      - rm Bolls-0.2.1.AppImage
       - mv squashfs-root /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
@@ -46,7 +46,7 @@ modules:
       - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: bolls-0.2.1.AppImage
+        filename: Bolls-0.2.1.AppImage
         url: https://storage.googleapis.com/resurrecting-cat.appspot.com/Bolls-0.2.1.AppImage
         sha256: f976c38c5ca0f10bbae88297d1ff5341e54f487237333859220346c1979ed80b
         size: 83987531
