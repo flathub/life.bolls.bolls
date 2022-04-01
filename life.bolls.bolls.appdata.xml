@@ -90,6 +90,13 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.1.78" date="2023-03-01">
+			<description>
+				<p>Update engine</p>
+				<p>UI update, performance improvements, bugs fixes</p>
+				<p>Other minor improvements. Full changelog at the telegram channel @bbbible</p>
+			</description>
+		</release>
 		<release version="2.1.64" date="2021-11-09">
 			<description>
 				<p>Update electron</p>
