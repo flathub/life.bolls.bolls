@@ -52,5 +52,5 @@ modules:
         size: 83987532
       - type: shell
         commands:
-          - sed -i '3i <releases><release version="2.1.78" date="2023-03-01"></release></releases>'
+          - sed -i '3i <releases><release version="2.1.80" date="2022-04-05"></release></releases>'
             life.bolls.bolls.appdata.xml

@@ -90,10 +90,10 @@
 		</screenshot>
 	</screenshots>
 	<releases>
-		<release version="2.1.80" date="2022-03-01">
+		<release version="2.1.80" date="2022-04-05">
 			<description>
 				<p>Add application menu</p>
-				<p>Shotrcuts for **New Window** & **New Private Window** _(with empty session state, idk if any will use it)_</p>
+				<p>Shotrcuts for **New Window** &amp; **New Private Window** _(with empty session state, idk if any will use it)_</p>
 				<p>Tray Shotrcuts</p>
 			</description>
 		</release>
