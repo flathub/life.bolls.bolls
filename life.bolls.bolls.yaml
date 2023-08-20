@@ -14,21 +14,12 @@ finish-args:
   - --device=dri
   - --filesystem=~/.config
 modules:
-  - name: unappimage
-    buildsystem: simple
-    build-commands:
-      - make -C squashfs-tools -j ${FLATPAK_BUILDER_N_JOBS} install INSTALL_DIR=/app/bin
-    sources:
-      - type: git
-        url: https://github.com/refi64/unappimage
-        commit: d7f86f2a0d7ec3a69221125207d5f127386b849a
-
   - name: bolls
     buildsystem: simple
     build-commands:
-      - unappimage bolls-0.2.2.AppImage
-      - rm bolls-0.2.2.AppImage
-      - mv squashfs-root /app/bin/bolls
+      - unzip linux-unpacked.zip
+      - rm linux-unpacked.zip
+      - mv linux-unpacked /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
       - install -Dm644 life.bolls.bolls.desktop -t /app/share/applications
@@ -46,11 +37,9 @@ modules:
       - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: bolls-0.2.2.AppImage
-        url: https://storage.googleapis.com/resurrecting-cat.appspot.com/bolls-0.2.3.AppImage
-        sha256: 437c3bed19eb40020939d455384575af96b15902a668f6d2dd726fb648bac7af
-        size: 98985235
+        filename: linux-unpacked.zip
+        path: linux-unpacked.zip
       - type: shell
         commands:
-          - sed -i '3i <releases><release version="2.1.80" date="2022-04-05"></release></releases>'
+          - sed -i '3i <releases><release version="2.3.4" date="2023-07-14"></release></releases>'
             life.bolls.bolls.appdata.xml
