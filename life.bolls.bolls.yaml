@@ -1,8 +1,8 @@
 app-id: life.bolls.bolls
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '22.08'
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: bolls-run
 separate-locales: false
@@ -21,7 +21,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/refi64/unappimage
-        commit: d7f86f2a0d7ec3a69211125207d5f127386b849a
+        commit: d7f86f2a0d7ec3a69221125207d5f127386b849a
 
   - name: bolls
     buildsystem: simple
@@ -47,9 +47,9 @@ modules:
         path: life.bolls.bolls.appdata.xml
       - type: file
         filename: bolls-0.2.2.AppImage
-        url: https://storage.googleapis.com/resurrecting-cat.appspot.com/bolls-0.2.2.AppImage
-        sha256: 2d674cbb1df9117a4263385752991863e5d9c93f94a8d77d92030209571e94a4
-        size: 83987532
+        url: https://storage.googleapis.com/resurrecting-cat.appspot.com/bolls-0.2.3.AppImage
+        sha256: 437c3bed19eb40020939d455384575af96b15902a668f6d2dd726fb648bac7af
+        size: 98985235
       - type: shell
         commands:
           - sed -i '3i <releases><release version="2.1.80" date="2022-04-05"></release></releases>'
