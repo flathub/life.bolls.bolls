@@ -90,6 +90,14 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.3.4" date="2023-07-14">
+			<description>
+				<p>Upgrade dependencies</p>
+				<p>Lots of new transations</p>
+				<p>Highlights indicators at books navigation</p>
+				<p>Strong numbers support</p>
+			</description>
+		</release>
 		<release version="2.1.80" date="2022-04-05">
 			<description>
 				<p>Add application menu</p>
