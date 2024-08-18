@@ -6,8 +6,8 @@
 	<project_license>GPL-3.0</project_license>
 	<developer_name>Bohuslav Pavlyshynets</developer_name>
 	<url type="homepage">https://bolls.life</url>
-	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola
-		scriptura</summary>
+	<launchable type="desktop-id">life.bolls.bolls.desktop</launchable>
+	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola scriptura</summary>
 	<description>
 		<p>Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word
 			with a deep understanding of His design. Bible elevates your soul with rapid ascension

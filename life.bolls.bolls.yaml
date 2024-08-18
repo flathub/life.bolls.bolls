@@ -42,7 +42,3 @@ modules:
       - type: file
         filename: linux-unpacked.tar.xz
         path: linux-unpacked.tar.xz
-      - type: shell
-        commands:
-          - sed -i '3i <releases><release version="2.5.9" date="2024-08-18"></release></releases>'
-            life.bolls.bolls.appdata.xml
