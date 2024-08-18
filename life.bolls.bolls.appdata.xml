@@ -123,11 +123,27 @@
 	<screenshots>
 		<screenshot type="default">
 			<image>https://bolls.life/static/desktop_screenshots/1.png</image>
+			<caption>Reader screen</caption>
+		</screenshot>
+		<screenshot>
 			<image>https://bolls.life/static/desktop_screenshots/2.png</image>
+			<caption>Translations view</caption>
+		</screenshot>
+		<screenshot>
 			<image>https://bolls.life/static/desktop_screenshots/3.png</image>
+			<caption>Light theme with custom font</caption>
+		</screenshot>
+		<screenshot>
 			<image>https://bolls.life/static/desktop_screenshots/4.png</image>
+			<caption>Sepia theme with settings menu</caption>
+		</screenshot>
+		<screenshot>
 			<image>https://bolls.life/static/desktop_screenshots/5.png</image>
+			<caption>Parallel view with verse picker and related options</caption>
+		</screenshot>
+		<screenshot>
 			<image>https://bolls.life/static/desktop_screenshots/6.png</image>
+			<caption>Profile Bookmarks view</caption>
 		</screenshot>
 	</screenshots>
 	<releases>
