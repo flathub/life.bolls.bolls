@@ -17,13 +17,14 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - unzip linux-unpacked.zip
-      - rm linux-unpacked.zip
+      - tar -xf linux-unpacked.tar.xz
+      - rm linux-unpacked.tar.xz
       - mv linux-unpacked /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
       - install -Dm644 life.bolls.bolls.desktop -t /app/share/applications
-      - install -Dm644 life.bolls.bolls.svg -t /app/share/icons/hicolor/128x128/apps
+      - install -Dm644 life.bolls.bolls.svg -t /app/share/icons/hicolor/scalable/apps
+      - install -Dm644 life.bolls.bolls.png -t /app/share/icons/hicolor/512x512/apps
 
     sources:
       - type: script
@@ -35,11 +36,9 @@ modules:
       - type: file
         path: life.bolls.bolls.svg
       - type: file
+        path: life.bolls.bolls.png
+      - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: linux-unpacked.zip
-        path: linux-unpacked.zip
-      - type: shell
-        commands:
-          - sed -i '3i <releases><release version="2.3.4" date="2023-07-14"></release></releases>'
-            life.bolls.bolls.appdata.xml
+        filename: linux-unpacked.tar.xz
+        path: linux-unpacked.tar.xz
