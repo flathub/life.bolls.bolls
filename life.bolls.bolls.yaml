@@ -36,6 +36,8 @@ modules:
       - type: file
         path: life.bolls.bolls.svg
       - type: file
+        path: life.bolls.bolls.png
+      - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
         filename: linux-unpacked.tar.xz
