@@ -17,8 +17,8 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - unzip linux-unpacked.zip
-      - rm linux-unpacked.zip
+      - tar -xf linux-unpacked.tar.xz
+      - rm linux-unpacked.tar.xz
       - mv linux-unpacked /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
@@ -37,9 +37,9 @@ modules:
       - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: linux-unpacked.zip
-        path: linux-unpacked.zip
+        filename: linux-unpacked.tar.xz
+        path: linux-unpacked.tar.xz
       - type: shell
         commands:
-          - sed -i '3i <releases><release version="2.3.4" date="2023-07-14"></release></releases>'
+          - sed -i '3i <releases><release version="2.5.9" date="2024-08-18"></release></releases>'
             life.bolls.bolls.appdata.xml

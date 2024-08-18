@@ -20,8 +20,8 @@ npm start
 npm run dist
 ```
 
-Then upload AppImage to https://console.cloud.google.com/storage/browser/resurrecting-cat.appspot.com;tab=objects?forceOnBucketsSortingFiltering=true&project=resurrecting-cat&prefix=&forceOnObjectsSortingFiltering=false
+Then tar.gz and copypaste the `linux-unpacked.tar.xz` folder here.
 
-After run `sha256sum` to generate checksum for flatpak manifest. `ls -l` to see file size.
+Update the `appdata.xml` file with the new version number.
 
 Then open PR against fluthub repo

@@ -6,15 +6,35 @@
 	<project_license>GPL-3.0</project_license>
 	<developer_name>Bohuslav Pavlyshynets</developer_name>
 	<url type="homepage">https://bolls.life</url>
-	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola scriptura</summary>
+	<summary>A web app for reading the Bible with full emphasis on the God`s Word only. Sola
+		scriptura</summary>
 	<description>
-		<p>Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word with a deep understanding of His design. Bible elevates your soul with rapid ascension to calm, safety and more.</p>
-		<p>This app is built for reading the Bible on full screen. There is available such features as Bible texts of 63 translations, search, something like bookmarks, reading history, night/light theme, regulation of font size, font-family and some other small nice features. Localization for Українська, Русский, Portuguese, Español and German.</p>
+		<p>Read the Bible with full emphasis on God's Word only. Sola scriptura. Read God's Word
+			with a deep understanding of His design. Bible elevates your soul with rapid ascension
+			to calm, safety and more.</p>
+		<p>This app is built for reading the Bible on full screen. There is available such features
+			as Bible texts of 63 translations, search, something like bookmarks, reading history,
+			night/light theme, regulation of font size, font-family and some other small nice
+			features. Localization for Українська, Русский, Portuguese, Español and German.</p>
 		<p>This is FOSS. Here is GitHub -=> https://github.com/Bohooslav/bain.</p>
-		<p>The list of available translations:</p>
+		<p>The list of dome available translations:</p>
 		<ul>
+			<li>UBIO, Біблія, Іван Іванович Огієнко 1962</li>
+			<li>UKRK, Біблія. Пантелеймон Александрович Куліш, Іван Семенович Нечуй-Левицький, Іван
+				Павлович Пулюй, 1903</li>
+			<li>HOM, Святе Письмо, Переклад Івана Хоменка, 1963</li>
+			<li>UTT, Українська Біблія LXX УБТ Рафаїла Турконяка (2011) 77 книг</li>
+			<li>UMT, Свята Біблія: Сучасною мовою</li>
+			<li>PHIL, Бiблiя. Переклад Патріарха ФІЛАРЕТА (Денисенка), 2004</li>
+			<li>CUV23, БІБЛІЯ Сучасний переклад © УБТ (2020-2023)</li>
+			<li>CSL, Библия Церковнославянская, 1900</li>
+			<li>SVD, Smith and Van Dyke</li>
+			<li>CUV, Chinese Union (Traditional) 和合本</li>
+			<li>CUNP, 新標點和合本串珠 - Chinese Union New Punctuation Cross References, 1988</li>
+			<li>CUNPS, 新标点和合本 - Chinese Union New Punctuation (Simplified), 1988</li>
+			<li>CSP09, Ceský studijní preklad</li>
 			<li>YLT, Young's Literal Translation (1898)</li>
-			<li>KJV, King James Version 1769 with Apocrypha</li>
+			<li>KJV, King James Version 1769 with Apocrypha and Strong's Numbers</li>
 			<li>NKJV, New King James Version, 1982</li>
 			<li>WEB, World English Bible</li>
 			<li>RSV, Revised Standard Version (1952)</li>
@@ -22,33 +42,53 @@
 			<li>TS2009, The Scriptures 2009</li>
 			<li>LXXE, English version of the Septuagint Bible, 1851</li>
 			<li>TLV, Tree of Life Version</li>
+			<li>LSB, The Legacy Standard Bible</li>
 			<li>NASB, New American Standard Bible (1995)</li>
 			<li>ESV, English Standard Version 2001, 2016</li>
 			<li>GNV, Geneva Bible (1599)</li>
 			<li>DRB, Douay Rheims Bible</li>
+			<li>NIV2011, New International Version, 2011</li>
 			<li>NIV, New International Version, 1984</li>
 			<li>NLT, New Living Translation, 2015</li>
 			<li>NRSVCE, New Revised Standard Version Catholic Edition, 1993</li>
 			<li>NET, New English Translation, 2007</li>
+			<li>NJB1985, New Jerusalem Bible, 1985</li>
+			<li>SPE, Samaritan Pentateuch in English, 2013</li>
+			<li>LBP, Aramaic Of The Peshitta: Lamsa, 1933</li>
+			<li>AMP, Amplified Bible, 2015</li>
+			<li>MSG, The Message, 2002</li>
+			<li>LSV, Literal Standard Version</li>
+			<li>BSB, The Holy Bible, Berean Standard Bible</li>
+			<li>MEV, Modern English Version</li>
+			<li>RSV2CE, Revised Standard Version Catholic Edition</li>
+			<li>NABRE, New American Bible (Revised Edition)</li>
+			<li>POV, Persian Old Version</li>
+			<li>FACB, کتاب مقدس، ترجمه تفسیری Farsi Contemporary Bible</li>
+			<li>NBS, Nouvelle Bible Segond, 2002</li>
+			<li>MB, Menge-Bibel</li>
+			<li>ELB, Elberfelder Bibel, 1871</li>
+			<li>SCH, Schlachter (1951)</li>
+			<li>LUT, Luther (1912)</li>
+			<li>TISCH, Tischendorf's Greek New Testament, 8th edition, 1869–72 (With Strong's
+				numbers)</li>
+			<li>NTGT, Greek NT: Tischendorf 8th Ed.</li>
+			<li>LXX, Septuagint</li>
+			<li>TR, Elzevir Textus Receptus (1624)</li>
+			<li>WLCa, Westminster Leningrad Codex (with vowels, accents and Strong's numbers)</li>
 			<li>WLC, Westminster Leningrad Codex (with Vowels)</li>
 			<li>WLCC, Westminster Leningrad Codex (Consonants)</li>
-			<li>UBIO, Біблія, Іван Іванович Огієнко 1962</li>
-			<li>UKRK, Біблія. Пантелеймон Александрович Куліш, Іван Семенович Нечуй-Левицький, Іван Павлович Пулюй,1903</li>
-			<li>HOM, Святе Письмо, Переклад Івана Хоменка, 1963</li>
-			<li>UTT, Українська Біблія LXX УБТ Рафаїла Турконяка (2011) 77 книг</li>
-			<li>UMT, Свята Біблія: Сучасною мовою</li>
-			<li>JNT, Еврейский Новый Завет в переводе и комментариях Давида Стерна</li>
-			<li>NRT, Новый Русский Перевод (НРП)</li>
-			<li>SYNOD, Русский Синодальный Перевод</li>
-			<li>RBS2, Современный русский перевод, 2015</li>
-			<li>CSL, Библия Церковнославянская, 1900</li>
-			<li>BTI, Библия под ред. М.П. Кулакова и М.М. Кулакова, 2015</li>
-			<li>BTX3, La Biblia Textual 3ra Edicion</li>
-			<li>RV1960, Reina-Valera 1960</li>
-			<li>RV2004, Reina Valera Gómez 2004</li>
-			<li>PDT, Palabra de Dios para Todos</li>
-			<li>NVI, Nueva Versión Internacional</li>
-			<li>NTV, Nueva Traducción Viviente, 2009</li>
+			<li>HAC, כֶּתֶר אֲרָם צוֹבָא - Tanah Aleppo Codex</li>
+			<li>DHNT, Delitzsch's Hebrew New Testament 1877, 1998 (with vowels)</li>
+			<li>RUF, Magyar Bibliatársulat újfordítású Bibliája, 2014 (protestáns)</li>
+			<li>KB, Karoli Bible 1908</li>
+			<li>NNRV, Nepali New Revised Version, 2012</li>
+			<li>NEPS, सरल नेपाली पवित्र बाइबल</li>
+			<li>TB, Terjemahan Baru</li>
+			<li>NJB, 新改訳聖書 第三版, New Japanese Bible - Shinkai-yaku, 2003</li>
+			<li>VULG, Biblia Sacra juxta Vulgatam Clementinam</li>
+			<li>NR06, Nuova Riveduta, 2006</li>
+			<li>NLD, De Heilige Schrift, Petrus Canisiusvertaling, 1939</li>
+			<li>DNB, Det Norsk Bibelselskap (1930)</li>
 			<li>ARA, Almeida Revista e Atualizada, 1993</li>
 			<li>NTJud, Novo Testamento Judaico</li>
 			<li>OL, O Livro</li>
@@ -56,28 +96,29 @@
 			<li>NVT, Bíblia Sagrada, Nova Versão Transformadora, 2016</li>
 			<li>NTLH, Nova Tradução na Linguagem de Hoje, 2000</li>
 			<li>KJA, Bíblia King James Atualizada, 2001</li>
-			<li>MB, Menge-Bibel</li>
-			<li>ELB, Elberfelder Bibel, 1871</li>
-			<li>SCH, Schlachter (1951)</li>
-			<li>LUT, Luther (1912)</li>
-			<li>POV, Persian Old Version</li>
-			<li>TBSI, Tamil Older Version Bible</li>
-			<li>TB, Terjemahan Baru</li>
-			<li>NLD, De Heilige Schrift, Petrus Canisiusvertaling, 1939</li>
-			<li>DNB, Det Norsk Bibelselskap (1930)</li>
-			<li>NBS, Nouvelle Bible Segond, 2002</li>
-			<li>SUV, Swahili Union Version, 1997</li>
-			<li>NJB, 新改訳聖書 第三版, New Japanese Bible - Shinkai-yaku, 2003</li>
-			<li>CUV, Chinese Union (Traditional) 和合本</li>
+			<li>VFL, Bíblia Sagrada: Versão Fácil de Ler</li>
+			<li>NAA, Nova Almeida Atualizada 2017</li>
 			<li>BG, Biblia gdańska, 1881</li>
 			<li>BW, Biblia warszawska, 1975</li>
-			<li>LXX, Septuagint</li>
-			<li>NTGT, Greek NT: Tischendorf 8th Ed.</li>
-			<li>TR, Elzevir Textus Receptus (1624)</li>
-			<li>VULG, Biblia Sacra juxta Vulgatam Clementinam</li>
-			<li>NR06, Nuova Riveduta, 2006</li>
+			<li>JNT, Еврейский Новый Завет в переводе и комментариях Давида Стерна</li>
+			<li>NRT, Новый Русский Перевод (НРП)</li>
+			<li>SYNOD, Русский Синодальный Перевод</li>
+			<li>TNHR, ТаНаХ на русском языке в переводе Давида Йосифона, 1975</li>
+			<li>RBS2, Современный русский перевод, 2015</li>
+			<li>BTI, Библия под ред. М.П. Кулакова и М.М. Кулакова, 2015</li>
+			<li>BTX3, La Biblia Textual 3ra Edicion</li>
+			<li>RV1960, Reina-Valera 1960</li>
+			<li>RV2004, Reina Valera Gómez 2004</li>
+			<li>PDT, Palabra de Dios para Todos</li>
+			<li>NVI, Nueva Versión Internacional</li>
+			<li>NTV, Nueva Traducción Viviente, 2009</li>
+			<li>LBLA, La Biblia de las Américas, 1997</li>
+			<li>SUV, Swahili Union Version, 1997</li>
+			<li>TBSI, Tamil Older Version Bible</li>
+			<li>VI1934, Kinh Thánh (1934)</li>
 		</ul>
-		<p>If you have any further questions or offers - be not afraid to mail me or text in Telegram.</p>
+		<p>If you have any further questions or offers - be not afraid to mail me or text in
+			Telegram.</p>
 	</description>
 	<screenshots>
 		<screenshot type="default">
@@ -90,6 +131,13 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="2.5.9" date="2024-08-18">
+			<description>
+				<p>Upgrade dependencies</p>
+				<p>Some new translations</p>
+				<p>Bugfixes, some minor her features</p>
+			</description>
+		</release>
 		<release version="2.3.4" date="2023-07-14">
 			<description>
 				<p>Upgrade dependencies</p>
@@ -101,7 +149,8 @@
 		<release version="2.1.80" date="2022-04-05">
 			<description>
 				<p>Add application menu</p>
-				<p>Shotrcuts for **New Window** &amp; **New Private Window** _(with empty session state, idk if any will use it)_</p>
+				<p>Shotrcuts for **New Window** &amp; **New Private Window** _(with empty session
+					state, idk if any will use it)_</p>
 				<p>Tray Shotrcuts</p>
 			</description>
 		</release>
@@ -163,4 +212,5 @@
 		</release>
 	</releases>
 	<content_rating type="oars-1.1" />
-</component><!-- flatpak run org.freedesktop.appstream-glib validate life.bolls.bolls.appdata.xml -->
+</component><!-- flatpak run org.freedesktop.appstream-glib
+validate life.bolls.bolls.appdata.xml -->
