@@ -1,8 +1,8 @@
 app-id: life.bolls.bolls
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.03'
+base-version: '24.08'
 runtime: org.freedesktop.Platform
-runtime-version: '24.03'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: bolls-run
 separate-locales: false
