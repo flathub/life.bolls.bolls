@@ -22,6 +22,6 @@ npm run dist
 
 Then tar.gz and copypaste the `linux-unpacked.tar.xz` folder here.
 
-Update the `appdata.xml` file with the new version number.
+Update the `.appdata.xml` file with the new version number.
 
 Then open PR against fluthub repo
