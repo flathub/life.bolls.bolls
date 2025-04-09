@@ -20,7 +20,7 @@ npm start
 npm run dist
 ```
 
-Then tar.gz and copypaste the `linux-unpacked.tar.xz` folder here.
+Then tar.xz and copypaste the `linux-unpacked.tar.xz` folder here.
 
 Update the `.appdata.xml` file with the new version number.
 
