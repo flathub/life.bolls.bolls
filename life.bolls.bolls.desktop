@@ -1,7 +1,8 @@
 [Desktop Entry]
 Name=Bolls Bible
-Exec=bolls-run
+Exec=bolls-run %U
 Terminal=false
 Type=Application
 Icon=life.bolls.bolls
 Categories=Education;
+MimeType=x-scheme-handler/bolls;
