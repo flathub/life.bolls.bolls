@@ -17,6 +17,7 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
+      - wget https://storage.googleapis.com/resurrecting-cat.appspot.com/linux-unpacked.tar.xz
       - tar -xf linux-unpacked.tar.xz
       - rm linux-unpacked.tar.xz
       - mv linux-unpacked /app/bin/bolls
@@ -39,6 +40,3 @@ modules:
         path: life.bolls.bolls.png
       - type: file
         path: life.bolls.bolls.appdata.xml
-      - type: file
-        filename: linux-unpacked.tar.xz
-        path: linux-unpacked.tar.xz

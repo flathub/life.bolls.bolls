@@ -5,3 +5,4 @@ Terminal=false
 Type=Application
 Icon=life.bolls.bolls
 Categories=Education;
+MimeType=x-scheme-handler/bolls;
