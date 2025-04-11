@@ -17,8 +17,8 @@ modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - tar -xf linux-unpacked.tar.xz
-      - rm linux-unpacked.tar.xz
+      - tar -xf linux-unpacked-v3.tar.xz
+      - rm linux-unpacked-v3.tar.xz
       - mv linux-unpacked /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
@@ -40,5 +40,6 @@ modules:
       - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: linux-unpacked.tar.xz
-        path: linux-unpacked.tar.xz
+        filename: linux-unpacked-v3.tar.xz
+        url: https://storage.googleapis.com/resurrecting-cat.appspot.com/linux-unpacked-v3.tar.xz
+        sha256: 4508d2170d802cc86da57b6a50f524d4124f25ab6256ec02891ac9adb2b2e113

@@ -42,6 +42,10 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="3.0.2" date="2025-03-11">
+			<description>
+			</description>
+		</release>
 		<release version="3.0.0" date="2025-01-9">
 			<description>
 				<p>Upgrade dependencies</p>
