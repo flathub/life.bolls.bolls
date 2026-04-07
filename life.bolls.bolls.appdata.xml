@@ -42,8 +42,14 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="3.3.2" date="2026-04-07">
+			<description>
+				<p>Updated dependencies which adds better Wayland support and GTK4 on GNOME</p>
+			</description>
+		</release>
 		<release version="3.0.2" date="2025-03-11">
 			<description>
+				<p>Upgrade dependencies</p>
 			</description>
 		</release>
 		<release version="3.0.0" date="2025-01-9">
@@ -64,7 +70,7 @@
 			<description>
 				<p>Upgrade dependencies</p>
 				<p>Some new translations</p>
-				<p>Bugfixes, some minor her features</p>
+				<p>Bugfixes, new minor features</p>
 			</description>
 		</release>
 		<release version="2.3.4" date="2023-07-14">
@@ -141,5 +147,6 @@
 		</release>
 	</releases>
 	<content_rating type="oars-1.1" />
+	<url type="vcs-browser">https://github.com/Bolls-Bible/bolls-electron</url>
 </component><!-- flatpak run org.freedesktop.appstream-glib
 validate life.bolls.bolls.appdata.xml -->

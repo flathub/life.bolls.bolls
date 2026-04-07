@@ -1,24 +1,25 @@
 app-id: life.bolls.bolls
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: '25.08'
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: bolls-run
 separate-locales: false
 tags: []
 finish-args:
-  - --socket=x11
   - --share=ipc
-  - --share=network
   - --device=dri
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --share=network
   - --filesystem=~/.config
 modules:
   - name: bolls
     buildsystem: simple
     build-commands:
-      - tar -xf linux-unpacked-v3.tar.xz
-      - rm linux-unpacked-v3.tar.xz
+      - tar -xf linux-unpacked-v4.tar.xz
+      - rm linux-unpacked-v4.tar.xz
       - mv linux-unpacked /app/bin/bolls
       - install -D bolls-run -t /app/bin
       - install -Dm644 life.bolls.bolls.appdata.xml -t /app/share/metainfo
@@ -40,6 +41,6 @@ modules:
       - type: file
         path: life.bolls.bolls.appdata.xml
       - type: file
-        filename: linux-unpacked-v3.tar.xz
-        url: https://storage.googleapis.com/resurrecting-cat.appspot.com/linux-unpacked-v3.tar.xz
-        sha256: 4508d2170d802cc86da57b6a50f524d4124f25ab6256ec02891ac9adb2b2e113
+        dest-filename: linux-unpacked-v4.tar.xz
+        url: https://github.com/Bolls-Bible/bolls-electron/releases/download/v0.3.3/linux-unpacked.tar.xz
+        sha256: cc1a618e0590d70dea433761169889ec62bf4d772a132e8be21b6ec8ed9985d9
