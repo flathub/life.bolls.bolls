@@ -24,4 +24,4 @@ Then tar.xz and upload the `linux-unpacked.tar.xz` to cloud. Use `ls -l` and `sh
 
 Update the `.appdata.xml` file with the new version number.
 
-Then open PR against fluthub repo
+Then create a new branch, and open PR against flathub repo
